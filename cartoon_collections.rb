@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
-  long_call.any? { |call| call.length > 4}
+  planeteer_calls.any? { |call| call.length > 4}
   # Return the boolean result of this check
 end
 
