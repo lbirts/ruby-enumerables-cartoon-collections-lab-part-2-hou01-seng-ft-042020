@@ -1,8 +1,7 @@
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
-  new_array = []
-  array.each { |element|
+  array.map { |element|
   new_array << element * element
   }
   new_array
